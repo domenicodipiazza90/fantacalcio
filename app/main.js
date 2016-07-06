@@ -6,7 +6,8 @@ require.config({
         'angular-bootstrap': '../lib/angular-bootstrap/ui-bootstrap',
         'angular-resource': '../lib/angular-resource/angular-resource',
         'domReady': '../lib/requirejs-domready/domReady',
-        'angular-table': '../lib/angular/angular-table'
+        'angular-table': '../lib/angular/angular-table',
+        'module-app': './modules/mymodule/module'
     },
 
     shim: {

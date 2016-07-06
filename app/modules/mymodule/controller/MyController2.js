@@ -1,6 +1,6 @@
-define(['../module'], function (module) {
+define(['module-app'], function (moduleApp) {
     'use strict';
-    module.controller('myController2', [
+    moduleApp.controller('myController2', [
         '$scope',
         'myService',
         function ($scope, myService) {

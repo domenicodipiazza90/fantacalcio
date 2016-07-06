@@ -1,6 +1,6 @@
-define(['../module'], function (module) {
+define(['module-app'], function (moduleApp) {
 	'use strict';
-	module.controller('myController', [
+	moduleApp.controller('myController', [
 		'$scope',
 		function ($scope) {
 			$scope.list = [
@@ -88,7 +88,7 @@ define(['../module'], function (module) {
 			$scope.config = {
 				itemsPerPage: 5,
 				fillLastPage: false
-			}
+			};
 			$scope.setView = function(param){
 				$scope.config.itemsPerPage = param;
 			};

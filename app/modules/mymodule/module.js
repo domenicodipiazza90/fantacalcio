@@ -13,7 +13,7 @@ define(['angular'], function (ng) {
                 url: '/mymodule/view2',
                 controller: 'myController2',
                 templateUrl: 'app/modules/mymodule/view/MyView2.html'
-            })
+            });
     }]);
 
     return module;
